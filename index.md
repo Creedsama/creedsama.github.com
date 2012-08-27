@@ -6,15 +6,8 @@ tagline: Ruminations of a Techie
 
 Hey there,
 
-This is my failed attempt at keeping a technology blog(the title says it all).
-## Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+This is my failed attempt at keeping a technology blog(the title says it all). This blog here is my attempt at writing about technology, even though I don't know much--I'll use it as an excuse to learn stuff and write about it(I love to write). Hopefully, I'll keep updating it more frequently than my other blog(that one is me bitching about stuff).
+## Latest Posts
 
 <ul class="posts">
   {% for post in site.posts %}
