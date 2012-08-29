@@ -6,7 +6,16 @@ tagline: Ruminations of a Techie
 
 Hey there,
 
-This blog here is my attempt at writing about technology, even though I don't know much--I'll use it as an excuse to learn stuff and write about it(I love to write). Hopefully, I'll keep updating it more frequently than my other <a href="http://paradoxadinfinitum.wordpress.com/">blog</a>(that one is me bitching about stuff).
+Oh, sorry, I forgot to introduce myself. My name is Vakul. I am a fledgling programmer trying to find his way in this big confusing maze called 'The World of Code'. I know a bit of Java, PHP, C, The .NET Framework(most of the stuff that I learnt in College); workable knowledge in Mobile Apps--Android and Cross-platform apps made using the PhoneGap framework. Lately, I have been messing with Python, Ruby(mixed in with Rails), and some other technologies. Suffice to say, that I'm having a lot of fun while learning.
+
+But this was not the case before. Back in college, I was not at all interested in coding...I mean I was, but I was also in a very depressed state of mind. That lead to me being apathetic towards everything I enjoyed. Life became a drag; everything came to a stop for me. I won't go into the details, for that is not the purpose of this blog. 
+
+The reason I started this blog--well, Github has this awesome free service where you could host your own pages, and I had read up on Jekyll(Ruby gem) made specifically for this purpose, so I thought, 'Why not?'
+Also, I wanted to start a tech blog, so...
+
+Anyway, I will be filling this blog up with stuff related to code and stuff I learn about.  
+
+As you can see, I love to write. I have another <a href="http://paradoxadinfinitum.wordpress.com/">blog</a> where I write about random stuff and at times short stories. If you ever have free time, do check it out.
 
 ## Latest Posts
 

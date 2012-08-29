@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:title" content={{ page.title }} />
+  <meta property="og:type" content="blog" />
+  <meta property="fb:admins" content="1078763166" />
+  <meta property="og:url" content={{ page.url}} />
+  <meta property="og:description" content="Ruminations of a Techie" />
+
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
@@ -22,13 +30,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
-  
-  <!-- Facebook Meta Tags -->
-  <meta property="og:title" content={{ page.title }} />
-  <meta property="og:type" content="blog" />
-  <meta property="fb:admins" content="1078763166" />
-  <meta property="og:url" content={{ page.url}} />
-  <meta property="og:description" content="Ruminations of a Techie" />
+
   </head>
 
   <body>
@@ -47,6 +49,7 @@
     </div>
 
     <div class="container">
+      <div class="fb-like" data-href="http://creedsama.github.com/" data-send="true" data-width="450" data-show-faces="true"></div>
 
       <div class="content">
         {{ content }}
