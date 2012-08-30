@@ -2,13 +2,6 @@
 <html lang="en">
   <head>
 
-  <!-- Facebook Meta Tags -->
-  <meta property="og:title" content={{ page.title }} />
-  <meta property="og:type" content="blog" />
-  <meta property="fb:admins" content="1078763166" />
-  <meta property="og:url" content={{ page.url}} />
-  <meta property="og:description" content="Ruminations of a Techie" />
-
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
@@ -31,6 +24,13 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
 
+    <!-- Facebook Meta Tags -->
+  <meta property="og:title" content={{ page.title }} />
+  <meta property="og:type" content="blog" />
+  <meta property="fb:admins" content="1078763166" />
+  <meta property="og:url" content={{ page.url}} />
+  <meta property="og:description" content="Ruminations of a Techie" />
+
   </head>
 
   <body>
@@ -48,8 +48,10 @@
       </div>
     </div>
 
+    <div class="fb-like" data-href="http://creedsama.github.com/" data-send="true" data-width="450" data-show-faces="true"></div>
+
     <div class="container">
-      <div class="fb-like" data-href="http://creedsama.github.com" data-send="true" data-width="450" data-show-faces="true"></div>
+      
 
       <div class="content">
         {{ content }}
@@ -65,5 +67,13 @@
     </div> <!-- /container -->
 
     {% include JB/analytics %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=522676857748620";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
